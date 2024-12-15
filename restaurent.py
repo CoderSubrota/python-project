@@ -1,4 +1,7 @@
 import random 
+import pyfiglet
+msg = pyfiglet.figlet_format(f"Welcome to Cava Restaurent !!")
+print(msg)
 
 class UserInfo:
     def __init__(self,id,name,email,age,city,gender):
